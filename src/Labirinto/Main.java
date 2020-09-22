@@ -31,7 +31,7 @@ public class Main {
 			System.out.println("________________________________________");
 			//
 			count++;
-			if(digger.isColison(xObj, yObj, digger.getXLocal(), digger.getYLocal())) {
+			if(digger.isColisonDigger(xObj, yObj)) {
 				found = true;
 				System.out.println(count);
 			}

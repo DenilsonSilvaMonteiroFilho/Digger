@@ -52,9 +52,8 @@ public class Digger {
 		}
 		
 	}
-	//mudar as variaveis de entra, para ser so de um objeto o outro vai ser o propio Digger
-	public boolean isColison(int xObj1, int yObj1, int xObj2, int yObj2) {
-		if(xObj1 == xObj2 & yObj1 == yObj2) {
+	public boolean isColisonDigger(int xObj, int yObj) {
+		if(xObj == this.xLocal & yObj == this.yLocal) {
 			return true;
 		}
 		return false;
